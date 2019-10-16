@@ -1,0 +1,281 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    
+    color: #333;
+    background: #cfcfcf;
+    background-image: url("../../assets/images/hotel-wallpaper.png");
+  }
+  
+.header {
+    background-color: black;
+    height: 70px;
+    padding: 15px;
+    list-style-type: none;
+    
+    }
+
+
+
+
+
+.container {
+    
+    width: 1040px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    padding-bottom: 150px;
+    padding-top: 25px;
+    margin-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#subject {
+    width: 1040px;
+    margin-bottom: 50px;
+    
+    
+}
+
+#country {
+margin-bottom: 50px;
+}
+
+          
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        
+}
+
+
+p {
+margin-left: 240px;
+font-size: 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+
+#main-bio {
+    width: 960px;
+    float: left;
+}
+
+h1 {
+background-color: whitesmoke;
+color: rgb(82, 82, 82);
+font-size: 40px;
+float: left;
+height: 100px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 165px;
+margin-top: 0px;
+line-height: -10px;
+
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+}
+
+
+
+#bio-image {
+    float:left;
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    border: 2px solid;
+}
+
+
+.topnav {
+    font-size: 22px;
+    margin-right: 55px;
+    margin: 50px;
+    display: block;
+    
+     
+}
+
+
+
+
+.topnav a  {
+float: right;
+
+margin-right: 80px;
+margin-bottom: 45px;
+color: grey;
+text-decoration: none;
+display: block;
+
+}
+
+a:hover {
+text-decoration: underline;
+
+}
+
+#paragraph1 {
+margin-bottom: 50px;
+
+}
+
+.work {
+float: left;
+
+}
+    
+  
+
+ @media only screen and (max-width: 640px){
+
+/* need to position bio image above my 'About Page' text so it is all in line
+
+need to figure out how to make my nav bar items not move around and stack on top 
+of one another when screen >590
+
+figure out how to make 'Subject' box on Contact page change in size according to screen size 
+
+*/
+
+.wrapper {
+width: 100%;
+padding: 20px;
+
+}
+
+
+
+
+#main-content1,
+#main-content2 {
+width: 100%;
+margin-top: 50px;
+
+}
+
+
+.container {
+    width: auto;
+    background-color: lavender;
+    position: left;
+    margin: 0;
+    
+
+}
+
+#bio-image {
+    
+    display: block;
+    margin-bottom: 0px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid;
+    float: center;
+    
+    
+}
+
+
+
+
+#paragraph1 {
+margin: 0;
+
+}
+
+#paragraph2 {
+margin: 0;
+
+}
+
+#subject {
+width: relative;
+
+}  
+
+.topnav a  {
+    
+    
+    margin-right: 80px;
+  
+    color: grey;
+    text-decoration: none;
+    
+    display: inline;
+    
+    }
+    
+
+
+
+.header {
+    position: static;
+}
+
+a {
+position: relative;
+
+}
+
+}
+
+
+
+
+ 
+
+ @media screen and (max-width: 768px){
+.container {
+    width: auto;
+}
+
+.wrapper {
+width: 100%
+
+}
+
+
+
+ }
+ 
+@media screen and (max-width: 980px){
+.container {
+    width: auto;
+
+}
+
+#bio-image {
+display: block;
+margin: 0;
+
+}
+
+
+
+}
+
+  
